@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.json());
 
 const pool = mysql.createPool({
-  host: 'a3-product-db.cluster-cas3001xut7b.us-east-1.rds.amazonaws.com',
+  host: 'product-db-cluster.cluster-cas3001xut7b.us-east-1.rds.amazonaws.com',
   user: 'admin',
   password: 'admin123',
   database: 'a3_db',
